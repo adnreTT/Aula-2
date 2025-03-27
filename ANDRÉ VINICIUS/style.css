@@ -1,0 +1,146 @@
+body {    /* Ajuste da fonte e cor de fundo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {     /* Ajuste basico do header */
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {     /* navbar do site para fixação da logo e home page link */
+    
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 0px 35px;
+    background-color: #000000;
+    
+}
+
+
+.logo img {
+height: 100px;
+     
+
+
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-links li {
+    margin: 0 150px;
+}
+
+.nav-links a {
+    color: white;
+
+}
+
+
+h1 {
+    margin: 0;
+}
+
+
+/* Efeito de hover */
+
+.div-comum:hover {
+    transform: scale(1.05); /* Aumenta a div ao passar o mouse */
+    background-color: #ffffff; /* Muda a cor de fundo ao passar o mouse */
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Efeito de transição */
+    box-shadow:  10px 20px 20px rgba(255, 255, 255, 0.5); /* Adiciona sombra */
+    
+}
+
+
+
+.div-comum {
+    border: 2px solid #000;
+    padding: 0px;
+    box-sizing: border-box; /* Para incluir padding e border no tamanho total */
+    float: left; /* Para posicionar as divs lado a lado */
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+    
+}
+
+/* Regras CSS do tipo ID para cada div */
+#div1 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+    
+    
+}
+
+
+#div2 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+   
+}
+
+#div3 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+    
+}
+
+#div4 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+}
+
+#div5 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+   
+}
+
+#div6 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+}
+
+#div7 {
+    width: 500px;
+    height:400px;
+    background-color: #000000;
+}
+
+#div8 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+}
+
+#div9 {
+    width: 500px;
+    height: 400px;
+    background-color: #000000;
+}
